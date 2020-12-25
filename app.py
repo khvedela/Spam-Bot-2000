@@ -32,7 +32,7 @@ driver = webdriver.Chrome(executable_path=r'C:\Users\David\Documents\chromedrive
 #Target website
 driver.get('https://instagram.com/accounts/login/')
 
-time.sleep(6)
+time.sleep(5)
 
 #Yousername input
 driver.find_element_by_xpath(
